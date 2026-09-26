@@ -67,13 +67,6 @@ gap: 20px;
     object-fit: cover;
 }
 
-.logo a,
-.logo a:visited,
-.logo a:hover,
-.logo a:active {
-    color: #000000 !important;
-    text-decoration: none;
-}
 
 .nav {
 display: flex;
