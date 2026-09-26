@@ -52,19 +52,27 @@ gap: 20px;
 }
 
 .logo {
-display: flex;
-align-items: center;
-gap: 10px;
-font-size: 25px;
-font-weight: 700;
-color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
 }
 
 .logo img {
-width: 45px;
-height: 45px;
-object-fit: cover;
-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo a,
+.logo a:visited,
+.logo a:hover,
+.logo a:active {
+    color: #000000 !important;
+    text-decoration: none;
 }
 
 .nav {
